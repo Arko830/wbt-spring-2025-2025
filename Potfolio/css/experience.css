@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.nav{
+    
+    background-color: rgb(91, 91, 249);
+    padding: 20px 0;
+    
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    display: inline;
+    margin: 0px 25px;
+    
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+.nav a:hover{
+    color: black;
+
+}
+
+.exp h2{
+    text-align: center;
+    background-color: rgb(37, 150, 190);
+    color: aliceblue;
+    height: 50px;
+}
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: 40px ;
+        }
+
+        /* Experience Card */
+        .experience-card {
+            background-color: white;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            display: flex;            
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Company Logo */
+        .company-logo img {
+         
+            object-fit: contain;
+            margin-right: 20px;
+        }
+
+        /* Content */
+        .experience-content h3 {
+            margin: 0;
+            color: #1f4e79;
+        }
+
+        .experience-content h4 {
+            margin: 5px 0;
+            color: #555;
+            font-weight: normal;
+        }
+
+        .experience-content p {
+            margin: 8px 0;
+            color: #444;
+            
+        }
+
+        .year {
+            font-weight: bold;
+            color: #0d6efd;
+        }

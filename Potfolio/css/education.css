@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.nav{
+    
+    background-color: rgb(91, 91, 249);
+    padding: 20px 0;
+    
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    display: inline;
+    margin: 0px 25px;
+    
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+.nav a:hover{
+    color: black;
+
+}
+
+.edu h2{
+    text-align: center;
+    background-color: rgb(37, 150, 190);
+    color: aliceblue;
+    height: 50px;
+}
+
+   /* Container */
+        .container {
+            width: 80%;
+            margin: 40px ;
+        }
+.edu1{
+     background-color: white;
+                  margin-bottom: 25px;
+            border-radius: 8px;
+            display: flex;            
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.edu1 .images{
+    width: 20%;
+    text-align: center;
+    border-right: 2px solid black ;
+}
+
+.img-info {
+     width: 70%;
+     padding: 20px;
+     color: rgb(0, 0, 153);
+
+}
+
+/* second */
+.edu2{
+    background-color: white;
+          
+            margin-bottom: 25px;
+            border-radius: 8px;
+            display: flex;            
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.edu2 .images2{
+    width: 20%;
+    text-align: center;
+    border-right: 2px solid black ;
+}
+
+/* third */
+.edu3{
+    background-color: white;
+           
+            margin-bottom: 25px;
+            border-radius: 8px;
+            display: flex;            
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.edu3 .images3{
+    width: 20%;
+    text-align: center;
+    border-right: 2px solid black ;
+}
+
+
+
